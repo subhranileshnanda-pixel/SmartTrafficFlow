@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: #13232b;
+  --panel: #1b303a;
+  --panel-2: #223a46;
+  --road: #0f1c22;
+  --line: #2e4856;
+  --text: #eaf0f2;
+  --muted: #93a9b3;
+  --amber: #f5c542;
+  --blue: #5aaeff;
+  --green: #3ddc84;
+  --yellow: #ffb020;
+  --red: #ff5a4d;
+  --display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --body: "Hanken Grotesk", "Segoe UI", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+button:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
