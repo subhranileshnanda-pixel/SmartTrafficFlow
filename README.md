@@ -729,10 +729,3 @@ The first version of adaptive control (no gap-out, 8 to 25 s greens) was **17% w
 
 ---
 
-## 19. Team
-
-| Name | College | Role |
-|---|---|---|
-| `<your name>` | `<your college>` | Design, development and testing |
-
-**GEC Hackathon 2026, Problem Statement 03.**
